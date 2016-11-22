@@ -81,7 +81,3 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
-
-define('FORCE_SSL_ADMIN',   true);
-define('FORCE_SSL_LOGIN',   true);
-define('FORCE_SSL_CONTENT', true);
